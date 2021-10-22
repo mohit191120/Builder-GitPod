@@ -1,6 +1,4 @@
-FROM ubuntu:focal
-LABEL maintainer="TheSanty <sudhiryadav.igi@gmail.com>"
-ENV DEBIAN_FRONTEND noninteractive
+FROM starlight2834/ci_docker:latest
 
 WORKDIR /tmp
 
